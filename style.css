@@ -60,8 +60,8 @@ body {
   gap: var(--space-6);
   /* I use calc for values not present in my design system at the top. */
   width: calc(375rem / 16);
-  border-radius: 13px;
-  padding: var(--space-4);
+  border-radius: 15px;
+  padding: var(--space-4) var(--space-4) var(--space-12) var(--space-4);
   background-color: #fff;
 }
 
@@ -69,18 +69,20 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
+  padding: 0 calc(40rem / 16);
 }
 
 .qrcode-img {
-  border-radius: 13px;
+  border-radius: 15px;
   width: 100%;
 }
 
 .heading-primary {
-  /* font-size: var(--text-5); */
+  font-size: calc(23rem / 16);
 }
 
 .paragraph {
-  font-size: calc(var(--text-3p2) + 1px);
+  font-size: calc(15rem / 16);
   color: #868e96;
+  line-height: 1.4;
 }

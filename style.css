@@ -1,9 +1,9 @@
 :root {
   /* sys COLORS */
 
-  --slate-300: hsl(212, 45%, 89%);
-  --slate-500: hsl(216, 15%, 48%);
-  --slate-900: hsl(218, 44%, 22%);
+  --slate-300: #d6e2f0;
+  --slate-500: #68778d;
+  --slate-900: #1f3251;
 
   /* sys Font Sizes */
   /* r: Scale factor of 4; p is for half-steps and means add 2 to the product of 4 */
@@ -39,5 +39,29 @@
 }
 
 body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
   font-family: "Outfit", sans-serif;
+  background-color: var(--slate-300);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  /* I use calc for values not present in my design system at the top. */
+  width: calc(375rem / 16);
+  padding: var(--space-8);
+  background-color: #fff;
+}
+
+.qr-img {
+  width: 100%;
+}
+
+.paragraph {
+  font-size: calc(var(--text-3p2) + 1px);
 }

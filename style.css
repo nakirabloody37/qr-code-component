@@ -57,22 +57,26 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: var(--space-16);
-  padding: var(--space-5);
-
+  gap: var(--space-6);
   /* I use calc for values not present in my design system at the top. */
   width: calc(375rem / 16);
+  border-radius: 17px;
+  padding: var(--space-5);
   background-color: #fff;
 }
 
 .text-box {
   display: flex;
   flex-direction: column;
-  gap: var(--space-8);
+  gap: var(--space-4);
 }
 
 .qrcode-img {
   width: 100%;
+}
+
+.heading-primary {
+  /* font-size: var(--text-5); */
 }
 
 .paragraph {

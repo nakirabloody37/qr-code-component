@@ -57,14 +57,21 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  gap: var(--space-16);
+  padding: var(--space-5);
 
   /* I use calc for values not present in my design system at the top. */
   width: calc(375rem / 16);
-  padding: var(--space-8);
   background-color: #fff;
 }
 
-.qr-img {
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.qrcode-img {
   width: 100%;
 }
 

@@ -1,3 +1,5 @@
+# QR Code Component
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,7 +14,7 @@
 
 ## Overview
 
-Qr-code component with HTML and CSS
+A QR code component built with HTML and CSS.
 
 ### Screenshot
 
@@ -20,40 +22,40 @@ Qr-code component with HTML and CSS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add your solution URL](https://your-solution-url.com)
+- Live site URL: [Add your live site URL](https://your-live-site-url.com)
 
 ## My process
 
-- I initialized an empty repository and added my username and user email.
+- I initialized an empty repository and configured my Git username and email.
 
-- Read and analyzed the .md files and design images.
+- I read the Markdown files and reviewed the design images.
 
-- Structured my html using semantics.
+- I structured the HTML using semantic elements.
 
-- Linked my CSS and also the font-family required for the webpage.
+- I linked the CSS file and loaded the font required for the page.
 
-- Used a design system (framework). This one is very helpful If you don't want to waste your time trying to find the 'right' value.
+- I created a small design system with CSS custom properties. This was helpful because I didn't have to search for the "right" values as I styled the page.
 
-- Added a global reset (even though I forgot to put it first, this should be the first thing I should have done after adding my design framework.)
+- I added a global reset after defining my design tokens. Next time, I would add it earlier in the process.
 
-- Added basic styling like font-size and font-family
+- I added basic styles, including the font size and font family.
 
-- Centered the whole component using CSS Grid.
+- I centered the component using CSS Grid.
 
-- Added colors (including background-color)
+- I added the colors, including the background color.
 
-- Started to add whitespaces (I added a ton at first to make it easier for me to style the layout and components inside the layout.)
+- I added spacing. At first, I used more whitespace than I needed to make it easier to style the layout and its contents.
 
-- Added padding, used flexbox for the gap property
+- I added padding and used Flexbox to arrange the content and create gaps.
 
-- Added border-radius
+- I added rounded corners.
 
-- Did some adjustments (I adjusted the whitespace I added at process number 10.)
+- I refined the spacing.
 
-- Styled the footer.
+- I styled the footer.
 
-In the middle of the processes, I was using git bash and the google chrome dev tools.
+While working on the project, I used Git Bash and Chrome DevTools.
 
 ### Built with
 
@@ -65,23 +67,23 @@ In the middle of the processes, I was using git bash and the google chrome dev t
 
 ### Continued development
 
-Using CSS Custom properties helped me so much, since I learned that the 62.5% trick when using rem had accessibility issues and also with UI libraries. There was a framework I was using beforehand and then changed the values to rem, named them in a specific way (the numbers are actually multipliers of 4, so by multiplying those numbers by 4, you will get the px value) and assigned them in :root. Im gonna use this framework for future projects and refine it as I go.
+Using CSS custom properties helped me learn about design tokens. I also learned that setting the root font size to 62.5% can cause accessibility issues and may lead to problems when using UI libraries. I defined spacing and typography values in `:root` using `rem` units and a 4px scale with 2px half-steps. I plan to keep refining this system in future projects. (p stands for plus which means add the specified number after the product for the half-steps.)
 
 ### Useful resources
 
-![Open color](https://yeun.github.io/open-color/) - This helped me for choosing colors without spending too much time on which colors I should choose. There are other alternatives like coolors which can generate a whole color palette.
+[Open Color](https://yeun.github.io/open-color/) - This helped me choose colors without spending too much time deciding which ones to use. Alternatives such as Coolors can also generate color palettes.
 
-![Google Fonts](https://fonts.google.com) - This is where I get my fonts from.
+[Google Fonts](https://fonts.google.com/) - I used this to find and load the font for the page.
 
-![DeepSeek](https://deepseek.com) - This helped me with git bash commands (gitbash has a lot of commands I don't know of) and a lot of other things like how to write an .md file, how I can use the dev tools in a better way... etc. This is, in my opinion, the best AI next to Claude, especially considering it is completely free for regular users. I wouldn't recommend using the free version of Gemini because of its inaccuracies and inconsistencies.
+[DeepSeek](https://deepseek.com/) - I used this to learn Git Bash commands, write Markdown, and use Chrome DevTools more effectively. In my opinion, it is one of the best AI tools available, especially because its free version is accessible to regular users. I found Gemini's free version less reliable for my needs.
 
 ### AI Collaboration
 
 - I used DeepSeek and GitHub Copilot.
 
-- I used DeepSeek mostly for git bash related because I recently learned it and I'm slowly getting familiar with it.
+- I mostly used DeepSeek for Git Bash questions, such as understanding commands and finding a way to edit a commit message. I recently started learning Git Bash and am slowly getting familiar with it.
 
-- I used GitHub Copilot for proof reading my README.md and analyzing my code.
+- I used GitHub Copilot to proofread this README and analyze my code.
 
 ## Author
 

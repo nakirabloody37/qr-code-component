@@ -1,100 +1,88 @@
-# Frontend Mentor - QR code component
+## Table of contents
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
 
-## Welcome! 👋
+## Overview
 
-Thanks for checking out this front-end coding challenge.
+Qr-code component with HTML and CSS
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### Screenshot
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+![Screenshot](./qr-code-solution-screenshot.png)
 
-## The challenge
+### Links
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## My process
 
-### Want some support on the challenge? 
+- I initialized an empty repository and added my username and user email.
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- Read and analyzed the .md files and design images.
 
-## Where to find everything
+- Structured my html using semantics.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Linked my CSS and also the font-family required for the webpage.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Used a design system (framework). This one is very helpful If you don't want to waste your time trying to find the 'right' value.
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Added a global reset (even though I forgot to put it first, this should be the first thing I should have done after adding my design framework.)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- Added basic styling like font-size and font-family
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Centered the whole component using CSS Grid.
 
-## Using AI coding assistants
+- Added colors (including background-color)
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+- Started to add whitespaces (I added a ton at first to make it easier for me to style the layout and components inside the layout.)
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+- Added padding, used flexbox for the gap property
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+- Added border-radius
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+- Did some adjustments (I adjusted the whitespace I added at process number 10.)
 
-## Building your project
+- Styled the footer.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+In the middle of the processes, I was using git bash and the google chrome dev tools.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Built with
 
-## Deploying your project
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### Continued development
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+Using CSS Custom properties helped me so much, since I learned that the 62.5% trick when using rem had accessibility issues and also with UI libraries. There was a framework I was using beforehand and then changed the values to rem, named them in a specific way (the numbers are actually multipliers of 4, so by multiplying those numbers by 4, you will get the px value) and assigned them in :root. Im gonna use this framework for future projects and refine it as I go.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+### Useful resources
 
-## Create a custom `README.md`
+![Open color](https://yeun.github.io/open-color/) - This helped me for choosing colors without spending too much time on which colors I should choose. There are other alternatives like coolors which can generate a whole color palette.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+![Google Fonts](https://fonts.google.com) - This is where I get my fonts from.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+![DeepSeek](https://deepseek.com) - This helped me with git bash commands (gitbash has a lot of commands I don't know of) and a lot of other things like how to write an .md file, how I can use the dev tools in a better way... etc. This is, in my opinion, the best AI next to Claude, especially considering it is completely free for regular users. I wouldn't recommend using the free version of Gemini because of its inaccuracies and inconsistencies.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### AI Collaboration
 
-## Submitting your solution
+- I used DeepSeek and GitHub Copilot.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+- I used DeepSeek mostly for git bash related because I recently learned it and I'm slowly getting familiar with it.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+- I used GitHub Copilot for proof reading my README.md and analyzing my code.
 
-## Sharing your solution
+## Author
 
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)

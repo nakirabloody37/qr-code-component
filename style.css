@@ -83,6 +83,18 @@ body {
 
 .paragraph {
   font-size: calc(15rem / 16);
-  color: #868e96;
+  color: #495057;
   line-height: 1.4;
+}
+
+.attribution {
+  display: flex;
+  gap: var(--space-4);
+  color: #495057;
+  font-size: var(--text-3p2);
+}
+
+.f-link {
+  color: var(--slate-900);
+  text-decoration: none;
 }

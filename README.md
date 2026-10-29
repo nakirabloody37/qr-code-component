@@ -22,8 +22,8 @@ A QR code component built with HTML and CSS.
 
 ### Links
 
-- Solution URL: [Add your solution URL](https://your-solution-url.com)
-- Live site URL: [Add your live site URL](https://your-live-site-url.com)
+- Solution URL: [Add your solution URL](https://github.com/nakirabloody37/qr-code-component)
+- Live site URL: [Add your live site URL](https://nakirabloody37.github.io/qr-code-component/)
 
 ## My process
 
@@ -87,4 +87,4 @@ Using CSS custom properties helped me learn about design tokens. I also learned 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@nakirabloody37](https://www.frontendmentor.io/profile/@nakirabloody37)

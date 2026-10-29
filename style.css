@@ -47,7 +47,7 @@
 body {
   display: grid;
   place-items: center;
-  height: 100vh;
+  min-height: 100vh;
 
   font-family: "Outfit", sans-serif;
   background-color: var(--slate-300);
@@ -59,7 +59,7 @@ body {
   text-align: center;
   gap: var(--space-6);
   /* I use calc for values not present in my design system at the top. */
-  width: calc(375rem / 16);
+  max-width: calc(375rem / 16);
   border-radius: 15px;
   padding: var(--space-4) var(--space-4) var(--space-12) var(--space-4);
   background-color: #fff;
@@ -101,6 +101,6 @@ body {
 
 @media (max-width: 40em) {
   html {
-    font-size: 75%;
+    font-size: 87.5%;
   }
 }

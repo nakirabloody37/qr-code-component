@@ -22,8 +22,8 @@ A QR code component built with HTML and CSS.
 
 ### Links
 
-- Solution URL: [Add your solution URL](https://github.com/nakirabloody37/qr-code-component)
-- Live site URL: [Add your live site URL](https://nakirabloody37.github.io/qr-code-component/)
+- Solution URL: [Solution](https://github.com/nakirabloody37/qr-code-component)
+- Live site URL: [Live site](https://nakirabloody37.github.io/qr-code-component/)
 
 ## My process
 
